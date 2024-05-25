@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="KamataEngine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="KamataEngine\Source">
+      <UniqueIdentifier>{d966e9f8-e880-44ae-8586-a08515e4cffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Include">
+      <UniqueIdentifier>{4aae4e40-94f7-4d32-9a91-c0c37a2edf0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KamataEngine\Adapter">
+      <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{a25d1ed4-f3ac-4916-b071-6af59c1249a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\TCP/IP">
+      <UniqueIdentifier>{84899298-0f98-4b71-a8aa-0daa10213243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\UI">
+      <UniqueIdentifier>{f6a5f477-3c9c-4d02-afe8-2187788f10ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\CSV">
+      <UniqueIdentifier>{70cdb299-d271-49e6-99ef-875549ad0a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\CursorManager">
+      <UniqueIdentifier>{3f00adee-7503-4358-b813-1e5350a1c473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\PhilliaFunction">
+      <UniqueIdentifier>{df5a71e8-506c-4296-97bd-51ebfb6ee173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\ResourceManager">
+      <UniqueIdentifier>{22f5029b-173b-4eb8-89cf-6f8b7afc60b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\FileTransfer">
+      <UniqueIdentifier>{5db10d6d-acac-49c2-9e60-0093aea83251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\ConvertString">
+      <UniqueIdentifier>{f236807e-5624-4233-b6ff-5c78d212d977}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\scene\GameScene.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp">
+      <Filter>KamataEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp">
+      <Filter>KamataEngine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPIP\TCPIP.cpp">
+      <Filter>Class\TCP/IP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Checkbox.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Scroll.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_Manager.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_ToolKit.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_ToolKit_Defines.cpp">
+      <Filter>Class\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PhilliaFunction\Phill.cpp">
+      <Filter>Class\PhilliaFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="PhilliaFunction\PhillEasing.cpp">
+      <Filter>Class\PhilliaFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="PhilliaFunction\Phill-various.cpp">
+      <Filter>Class\PhilliaFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CursorManager.cpp">
+      <Filter>Class\CursorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ResourceManager.cpp">
+      <Filter>Class\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSV\CSV.cpp">
+      <Filter>Class\CSV</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer\fileTransfer.cpp">
+      <Filter>Class\FileTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertString\ConvertString.cpp">
+      <Filter>Class\ConvertString</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\DebugText.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\scene\GameScene.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\input\Input.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Model.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\SafeDelete.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\Sprite.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\TextureManager.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\ViewProjection.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\WinApp.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\WorldTransform.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\Adapter\Novice.h">
+      <Filter>KamataEngine\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\CircleShadow.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DebugCamera.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\DirectionalLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\LightGroup.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Material.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\Mesh.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\PointLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\3d\SpotLight.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector3.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector4.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h" />
+    <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h">
+      <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPIP\TCPIP.h">
+      <Filter>Class\TCP/IP</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Checkbox.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Scroll.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_Manager.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_ToolKit.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_ToolKit_Defines.h">
+      <Filter>Class\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PhilliaFunction\Phill.h">
+      <Filter>Class\PhilliaFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CursorManager.h">
+      <Filter>Class\CursorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ResourceManager.h">
+      <Filter>Class\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CSV\CSV.h">
+      <Filter>Class\CSV</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTransfer\fileTransfer.h">
+      <Filter>Class\FileTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertString\ConvertString.h">
+      <Filter>Class\ConvertString</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
