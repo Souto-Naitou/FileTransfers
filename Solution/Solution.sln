@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTransport_Host", "..\Fi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileTransport_Client", "..\FileTransport_Client\FileTransport_Client.vcxproj", "{3F876E0F-75A4-45D5-9CF3-30E573AE9F7E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryEditor", "BinaryEditor\BinaryEditor.vcxproj", "{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileTransport", "FileTransport", "{D45DD44C-3103-4922-A90D-55721762CD9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransferSpeedTest", "TransferSpeedTest", "{E3AD4FDC-5D41-4C46-9151-ED1AD62B6736}"
@@ -41,14 +39,6 @@ Global
 		{3F876E0F-75A4-45D5-9CF3-30E573AE9F7E}.Release|x64.Build.0 = Release|x64
 		{3F876E0F-75A4-45D5-9CF3-30E573AE9F7E}.Release|x86.ActiveCfg = Release|x64
 		{3F876E0F-75A4-45D5-9CF3-30E573AE9F7E}.Release|x86.Build.0 = Release|x64
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Debug|x64.ActiveCfg = Debug|x64
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Debug|x64.Build.0 = Debug|x64
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Debug|x86.ActiveCfg = Debug|Win32
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Debug|x86.Build.0 = Debug|Win32
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Release|x64.ActiveCfg = Release|x64
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Release|x64.Build.0 = Release|x64
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Release|x86.ActiveCfg = Release|Win32
-		{A5A03A2B-E681-4CD4-9908-BFC46B32AB3B}.Release|x86.Build.0 = Release|Win32
 		{013A7C19-E805-4564-A148-56398244CD7B}.Debug|x64.ActiveCfg = Debug|x64
 		{013A7C19-E805-4564-A148-56398244CD7B}.Debug|x64.Build.0 = Debug|x64
 		{013A7C19-E805-4564-A148-56398244CD7B}.Debug|x86.ActiveCfg = Debug|x64

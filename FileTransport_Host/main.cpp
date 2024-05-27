@@ -75,26 +75,28 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 		///
 		/// ↓描画処理ここから
 		///
+		
+		int linecount = 0;
 
 		if (fileSize != nullptr && receiptBites != nullptr)
 		{
-			Novice::ScreenPrintf(15, 15, "Port : %s", port);
+			Novice::ScreenPrintf(15, 15 + linecount++ * 20, "Port : %s", port);
 
-			//Novice::ScreenPrintf(15, 35, "rcv  : %d", *receiptBites);
+			//Novice::ScreenPrintf(15, 15 + linecount++ * 20, "rcv  : %d", *receiptBites);
 			if (*fileSize == 0)
 			{
-				//Novice::ScreenPrintf(15, 55, "null");
+				//Novice::ScreenPrintf(15, 15 + linecount++ * 20, "null");
 			}
 			else
 			{
-				//Novice::ScreenPrintf(15, 55, "%d%%", int(float(*receiptBites) / float(*fileSize) * 100.0f));
-				Novice::ScreenPrintf(15, 55, "File name : %s", (*filename).c_str());
-				Novice::ScreenPrintf(15, 75, "File size : %dB", *fileSize);
+				Novice::ScreenPrintf(15, 15 + linecount++ * 20, "%d%%", int(float(*receiptBites) / float(*fileSize) * 100.0f));
+				Novice::ScreenPrintf(15, 15 + linecount++ * 20, "File name : %s", (*filename).c_str());
+				Novice::ScreenPrintf(15, 15 + linecount++ * 20, "File size : %dB", *fileSize);
 			}
 
-			//Novice::ScreenPrintf(15, 95, "Buffer : %dB", BUFFER_SIZE);
-			Novice::ScreenPrintf(15, 115, "Listen : %s", threadExist[TH_LISTEN] ? "Connected" : "Processing...");
-			//Novice::ScreenPrintf(15, 135, "Session : %s", threadExist[TH_SESSION] ? "End" : "Processing...");
+			//Novice::ScreenPrintf(15, 15 + linecount++ * 20, "Buffer : %dB", BUFFER_SIZE);
+			Novice::ScreenPrintf(15, 15 + linecount++ * 20, "Listen : %s", threadExist[TH_LISTEN] ? "Connected" : "Processing...");
+			//Novice::ScreenPrintf(15, 15 + linecount++ * 20, "Session : %s", threadExist[TH_SESSION] ? "End" : "Processing...");
 
 			// Progress bar
 			Novice::DrawBox(0, 0, int(kWindowWidth * float(*receiptBites) / float(*fileSize)), kWindowHeight, 0.0f, 0x234923ff, kFillModeSolid);

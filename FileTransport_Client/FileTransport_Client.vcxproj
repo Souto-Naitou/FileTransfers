@@ -108,7 +108,6 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Solution\BinaryEditor\main.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp" />

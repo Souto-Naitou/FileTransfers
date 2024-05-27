@@ -163,7 +163,7 @@ void FileTransfer::Send()
 		ZeroMemory(data, sizeof data);
 		bites = int(fread(data, 1, sizeof data, fp));
 		int test = 0;
-		Sleep(10);
+		//Sleep(10);
 		tcpip->Send(data, bites, &test);
 		SentBites += test;
 		if (bites <= 0)
